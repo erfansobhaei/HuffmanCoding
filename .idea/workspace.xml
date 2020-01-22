@@ -14,7 +14,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1W2J7PbcqwIS6mMSQS6gkUbbR1D" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -67,58 +71,66 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="446" y="48" key="#com.intellij.ide.util.MemberChooser" timestamp="1579699371432">
+    <state x="233" y="0" key="#Notifications" timestamp="1579713841511">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="446" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1579699371432" />
+    <state x="233" y="0" key="#Notifications/0.0.1280.680@0.0.1280.680" timestamp="1579713841511" />
+    <state x="446" y="48" key="#com.intellij.ide.util.MemberChooser" timestamp="1579715983529">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="446" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1579715983529" />
     <state x="321" y="76" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1578520497554">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="321" y="76" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.680@0.0.1280.680" timestamp="1578520497554" />
-    <state x="371" y="89" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1579699260224">
+    <state x="230" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1579716047314">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="371" y="89" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1579699260224" />
+    <state x="230" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680@0.0.1280.680" timestamp="1579716047314" />
+    <state x="371" y="89" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1579716814054">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="89" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1579716814054" />
     <state x="421" y="83" key="FileChooserDialogImpl" timestamp="1579712335506">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="83" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1579712335506" />
-    <state width="1237" height="321" key="GridCell.Tab.0.bottom" timestamp="1579707143681">
+    <state width="1237" height="321" key="GridCell.Tab.0.bottom" timestamp="1579717133522">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="321" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1579707143681" />
-    <state width="1237" height="321" key="GridCell.Tab.0.center" timestamp="1579707143681">
+    <state width="1237" height="321" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1579717133522" />
+    <state width="1237" height="321" key="GridCell.Tab.0.center" timestamp="1579717133522">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="321" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1579707143681" />
-    <state width="1237" height="321" key="GridCell.Tab.0.left" timestamp="1579707143681">
+    <state width="1237" height="321" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1579717133522" />
+    <state width="1237" height="321" key="GridCell.Tab.0.left" timestamp="1579717133522">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="321" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1579707143681" />
-    <state width="1237" height="321" key="GridCell.Tab.0.right" timestamp="1579707143681">
+    <state width="1237" height="321" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1579717133522" />
+    <state width="1237" height="321" key="GridCell.Tab.0.right" timestamp="1579717133522">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="321" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1579707143681" />
-    <state width="1237" height="321" key="GridCell.Tab.1.bottom" timestamp="1579707143681">
+    <state width="1237" height="321" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1579717133522" />
+    <state width="1237" height="321" key="GridCell.Tab.1.bottom" timestamp="1579717133522">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="321" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1579707143681" />
-    <state width="1237" height="321" key="GridCell.Tab.1.center" timestamp="1579707143681">
+    <state width="1237" height="321" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1579717133522" />
+    <state width="1237" height="321" key="GridCell.Tab.1.center" timestamp="1579717133522">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="321" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1579707143681" />
-    <state width="1237" height="321" key="GridCell.Tab.1.left" timestamp="1579707143681">
+    <state width="1237" height="321" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1579717133522" />
+    <state width="1237" height="321" key="GridCell.Tab.1.left" timestamp="1579717133522">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="321" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1579707143681" />
-    <state width="1237" height="321" key="GridCell.Tab.1.right" timestamp="1579707143681">
+    <state width="1237" height="321" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1579717133522" />
+    <state width="1237" height="321" key="GridCell.Tab.1.right" timestamp="1579717133522">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="321" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1579707143681" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1579712347412">
+    <state width="1237" height="321" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1579717133522" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1579713863023">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1579712347412" />
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1579713863023" />
     <state x="337" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1579712233448">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -127,5 +139,34 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1579705690116" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/erfnse/PriorityQueue.java</url>
+          <line>11</line>
+          <properties class="com.erfnse.PriorityQueue" method="enqueue">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/erfnse/Main.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/erfnse/Main.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="p.nodes" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
