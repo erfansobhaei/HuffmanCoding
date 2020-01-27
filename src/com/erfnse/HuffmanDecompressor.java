@@ -24,7 +24,6 @@ public class HuffmanDecompressor {
             byte numberOfNodes = (byte) outputStream.read();
             PriorityQueue queue = new PriorityQueue(numberOfNodes);
             for (int i = 0; i < numberOfNodes; i++) {
-                System.out.println();
                 String key = String.valueOf(outputStream.readChar());
                 short number = outputStream.readShort();
                 queue.enqueue(new Node(key, number));
@@ -67,7 +66,6 @@ public class HuffmanDecompressor {
             }
             for (Node node : nodes) {
                 if (node.getCode().equals(code)) {
-                    System.out.println(node.getData() + "  " + node.getCode());
                     fileWriter.write(node.getData());
                     code = "";
                     break;
