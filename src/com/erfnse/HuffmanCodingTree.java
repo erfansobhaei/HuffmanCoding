@@ -1,29 +1,30 @@
 package com.erfnse;
 
 public class HuffmanCodingTree {
-    CodingTreeNode root;
-    CodingTreeNode[] leaves;
-    int numberOfLeaves;
+    private Node root;
+    private Node[] leaves;
+    private int numberOfLeaves;
 
-    public HuffmanCodingTree(CodingTreeNode root) {
+
+    public HuffmanCodingTree(Node root) {
         this.root = root;
-        leaves = new CodingTreeNode[getNumberOfLeaves(root)];
+        leaves = new Node[getNumberOfLeaves(root)];
     }
 
     public boolean isEmpty() {
         return root == null;
     }
 
-    public int getNumberOfLeaves(CodingTreeNode node){
+    public int getNumberOfLeaves(Node node) {
         if (node == null) return 0;
         if (node.isLeaf()) return 1;
-        return getNumberOfLeaves(node.getLeft())+getNumberOfLeaves(node.getRight());
+        return getNumberOfLeaves(node.getLeft()) + getNumberOfLeaves(node.getRight());
     }
 
-    public CodingTreeNode[] getLeaves(CodingTreeNode node){
-        if (node != null){
+    public Node[] getLeaves(Node node) {
+        if (node != null) {
 
-            if (node.isLeaf()){
+            if (node.isLeaf()) {
                 leaves[numberOfLeaves++] = node;
             } else {
                 getLeaves(node.getLeft());
@@ -31,16 +32,27 @@ public class HuffmanCodingTree {
             }
 
         }
-
-
         return leaves;
     }
 
-    public void labelNodeCodes(CodingTreeNode node) {
+    public Node[] getLeaves() {
+        return getLeaves(root);
+    }
+
+    public void labelNodeCodes(Node node) {
+        if (node == null) return;
         node.generateCode();
         if (!node.isLeaf()) {
             labelNodeCodes(node.getLeft());
             labelNodeCodes(node.getRight());
         }
+    }
+
+    public boolean isSingleton() {
+        return getNumberOfLeaves(root) == 0;
+    }
+
+    public Node getRoot() {
+        return root;
     }
 }

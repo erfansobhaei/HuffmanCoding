@@ -25,6 +25,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
@@ -71,79 +72,110 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="233" y="0" key="#Notifications" timestamp="1579713841511">
+    <state x="233" y="0" key="#Notifications" timestamp="1579774007943">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="0" key="#Notifications/0.0.1280.680@0.0.1280.680" timestamp="1579713841511" />
-    <state x="446" y="48" key="#com.intellij.ide.util.MemberChooser" timestamp="1579717840421">
+    <state x="233" y="0" key="#Notifications/0.0.1280.680@0.0.1280.680" timestamp="1579774007943" />
+    <state x="388" y="145" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579863842221">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="446" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1579717840421" />
+    <state x="388" y="145" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1579863842221" />
+    <state x="446" y="48" key="#com.intellij.ide.util.MemberChooser" timestamp="1579858003323">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="446" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1579858003323" />
     <state x="321" y="76" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1578520497554">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="321" y="76" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.680@0.0.1280.680" timestamp="1578520497554" />
-    <state x="230" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1579716047314">
+    <state x="117" y="230" width="404" height="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1579778950360">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="230" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680@0.0.1280.680" timestamp="1579716047314" />
+    <state x="117" y="230" width="404" height="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1579778950360" />
+    <state x="230" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1579855881356">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="230" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680@0.0.1280.680" timestamp="1579855881356" />
     <state x="371" y="89" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1579716814054">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="89" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1579716814054" />
+    <state x="371" y="89" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1580077494436">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="89" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1280.680@0.0.1280.680" timestamp="1580077494436" />
     <state x="421" y="83" key="FileChooserDialogImpl" timestamp="1579712335506">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="83" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1579712335506" />
-    <state width="1237" height="321" key="GridCell.Tab.0.bottom" timestamp="1579719768040">
+    <state width="1237" height="125" key="GridCell.Tab.0.bottom" timestamp="1580080351380">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="321" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1579719768040" />
-    <state width="1237" height="321" key="GridCell.Tab.0.center" timestamp="1579719768040">
+    <state width="1237" height="125" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1580080351380" />
+    <state width="1237" height="125" key="GridCell.Tab.0.center" timestamp="1580080351380">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="321" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1579719768040" />
-    <state width="1237" height="321" key="GridCell.Tab.0.left" timestamp="1579719768040">
+    <state width="1237" height="125" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1580080351380" />
+    <state width="1237" height="125" key="GridCell.Tab.0.left" timestamp="1580080351380">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="321" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1579719768040" />
-    <state width="1237" height="321" key="GridCell.Tab.0.right" timestamp="1579719768040">
+    <state width="1237" height="125" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1580080351380" />
+    <state width="1237" height="125" key="GridCell.Tab.0.right" timestamp="1580080351380">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="321" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1579719768040" />
-    <state width="1237" height="321" key="GridCell.Tab.1.bottom" timestamp="1579719768040">
+    <state width="1237" height="125" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1580080351380" />
+    <state width="1237" height="125" key="GridCell.Tab.1.bottom" timestamp="1580080351380">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="321" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1579719768040" />
-    <state width="1237" height="321" key="GridCell.Tab.1.center" timestamp="1579719768040">
+    <state width="1237" height="125" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1580080351380" />
+    <state width="1237" height="125" key="GridCell.Tab.1.center" timestamp="1580080351380">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="321" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1579719768040" />
-    <state width="1237" height="321" key="GridCell.Tab.1.left" timestamp="1579719768040">
+    <state width="1237" height="125" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1580080351380" />
+    <state width="1237" height="125" key="GridCell.Tab.1.left" timestamp="1580080351380">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="321" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1579719768040" />
-    <state width="1237" height="321" key="GridCell.Tab.1.right" timestamp="1579719768040">
+    <state width="1237" height="125" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1580080351380" />
+    <state width="1237" height="125" key="GridCell.Tab.1.right" timestamp="1580080351380">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="321" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1579719768040" />
+    <state width="1237" height="125" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1580080351380" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1579713863023">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1579713863023" />
-    <state x="337" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1579773723086">
+    <state x="337" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1580156612400">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="337" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1579773723086" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1579705690116">
+    <state x="337" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1580156612400" />
+    <state x="297" y="151" key="run.anything.popup" timestamp="1580079056729">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1579705690116" />
+    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1580079056729" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1580068342709">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1580068342709" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/erfnse/Main.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/erfnse/Main.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="tree.getLeaves(root);" language="JAVA" />
+        <watch expression="findCodeLength(inputText)" language="JAVA" />
+        <watch expression="fileInputStream.read()" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>

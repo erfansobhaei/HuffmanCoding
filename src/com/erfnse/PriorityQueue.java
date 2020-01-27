@@ -1,21 +1,21 @@
 package com.erfnse;
 
 public class PriorityQueue {
-    public CodingTreeNode[] nodes;
+    public Node[] nodes;
     private int size = 0;
 
 
     public PriorityQueue(int capacity) {
-        nodes = new CodingTreeNode[capacity];
+        nodes = new Node[capacity];
     }
 
-    public void enqueue(CodingTreeNode entry) {
+    public void enqueue(Node entry) {
         if (isContains(entry)) {
             int queueNumber = getQueueNumber(entry);
-            int place = findPlace(new CodingTreeNode(entry.getData(), queueNumber));
+            int place = findPlace(new Node(entry.getData(), queueNumber));
             shiftElementsToLeft(place);
             size--;
-            enqueue(new CodingTreeNode(entry.getData(), queueNumber + entry.getNumber()));
+            enqueue(new Node(entry.getData(), queueNumber + entry.getNumber()));
         } else {
             int place = findPlace(entry);
             shiftElementsToRight(place);
@@ -25,19 +25,22 @@ public class PriorityQueue {
 
     }
 
-    public CodingTreeNode dequeue() {
-        CodingTreeNode result = nodes[0];
+    public Node dequeue() {
+        Node result = nodes[0];
         shiftElementsToLeft(0);
         size--;
         return result;
+    }
+    public Node peek(){
+        return nodes[0];
     }
 
     public boolean isEmpty() {
         return size == 0;
     }
 
-    private int getQueueNumber(CodingTreeNode entry) {
-        for (CodingTreeNode p : nodes) {
+    private int getQueueNumber(Node entry) {
+        for (Node p : nodes) {
             if (p.getData().equals(entry.getData())) {
                 return p.getNumber();
             }
@@ -46,8 +49,8 @@ public class PriorityQueue {
     }
 
 
-    private void updateNumber(CodingTreeNode entry) {
-        for (CodingTreeNode p : nodes) {
+    private void updateNumber(Node entry) {
+        for (Node p : nodes) {
             if (p == null) break;
             if (entry.getData().equals(p.getData())) {
                 p.setNumber(p.getNumber() + 1);
@@ -55,8 +58,8 @@ public class PriorityQueue {
         }
     }
 
-    private boolean isContains(CodingTreeNode entry) {
-        for (CodingTreeNode p : nodes) {
+    private boolean isContains(Node entry) {
+        for (Node p : nodes) {
             if (p == null) break;
             if (entry.getData().equals(p.getData())) {
                 return true;
@@ -65,7 +68,7 @@ public class PriorityQueue {
         return false;
     }
 
-    private int findPlace(CodingTreeNode entry) {
+    private int findPlace(Node entry) {
         int place = 0;
         if (size == 0) return 0;
 
@@ -96,9 +99,10 @@ public class PriorityQueue {
 
     private void shiftElementsToLeft(int place) {
 
-        for (int i = place; i < size; i++) {
+        for (int i = place; i < size-1; i++) {
             nodes[i] = nodes[i + 1];
         }
+        nodes[size-1] = null;
     }
 
     public int getSize() {
