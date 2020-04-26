@@ -27,7 +27,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -84,10 +84,6 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="446" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1579858003323" />
-    <state x="321" y="76" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1578520497554">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="321" y="76" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.680@0.0.1280.680" timestamp="1578520497554" />
     <state x="117" y="230" width="404" height="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1579778950360">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -104,26 +100,26 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="89" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1280.680@0.0.1280.680" timestamp="1580077494436" />
-    <state x="421" y="83" key="FileChooserDialogImpl" timestamp="1579712335506">
+    <state x="421" y="83" key="FileChooserDialogImpl" timestamp="1581001213533">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="83" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1579712335506" />
-    <state width="1237" height="156" key="GridCell.Tab.0.bottom" timestamp="1580158183586">
+    <state x="421" y="83" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1581001213533" />
+    <state width="1237" height="156" key="GridCell.Tab.0.bottom" timestamp="1580158520212">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="156" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1580158183586" />
-    <state width="1237" height="156" key="GridCell.Tab.0.center" timestamp="1580158183586">
+    <state width="1237" height="156" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1580158520212" />
+    <state width="1237" height="156" key="GridCell.Tab.0.center" timestamp="1580158520212">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="156" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1580158183586" />
-    <state width="1237" height="156" key="GridCell.Tab.0.left" timestamp="1580158183586">
+    <state width="1237" height="156" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1580158520212" />
+    <state width="1237" height="156" key="GridCell.Tab.0.left" timestamp="1580158520212">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="156" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1580158183586" />
-    <state width="1237" height="156" key="GridCell.Tab.0.right" timestamp="1580158183586">
+    <state width="1237" height="156" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1580158520212" />
+    <state width="1237" height="156" key="GridCell.Tab.0.right" timestamp="1580158520212">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="156" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1580158183586" />
+    <state width="1237" height="156" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1580158520212" />
     <state width="1237" height="125" key="GridCell.Tab.1.bottom" timestamp="1580080351380">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -140,14 +136,19 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="125" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1580080351380" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1579713863023">
+    <state x="142" y="0" key="SettingsEditor" timestamp="1581000534307">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1579713863023" />
-    <state x="337" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1580156612400">
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1581000534307" />
+    <state x="404" y="199" key="com.intellij.ide.util.TipDialog" timestamp="1587906309000">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="337" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1581000587558" />
+    <state x="404" y="199" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1587906309000" />
+    <state x="91" y="0" key="new project wizard" timestamp="1581001223939">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="337" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1580156612400" />
+    <state x="91" y="0" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1581001223939" />
     <state x="297" y="151" key="run.anything.popup" timestamp="1580079056729">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -162,13 +163,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/erfnse/Main.java</url>
-          <line>60</line>
+          <line>58</line>
           <option name="timeStamp" value="83" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/erfnse/Main.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="93" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

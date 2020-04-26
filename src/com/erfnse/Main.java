@@ -1,7 +1,6 @@
 package com.erfnse;
 
 import java.io.File;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 import java.util.regex.PatternSyntaxException;
@@ -10,7 +9,7 @@ public class Main {
 
     static String text;
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args){
 
         System.out.println("1. Compress input text:\n2. Compress .txt file:\n3. Decompress .cmp file:\n4. Exit;");
         int userSelect = new Scanner(System.in).nextInt();
@@ -29,7 +28,7 @@ public class Main {
                 try {
                     HuffmanCompressor compressor = new HuffmanCompressor(tree, text, new File("compress.cmp"));
                     if (compressor.compressFile()) {
-                        System.out.println("Your text is compressed successfully");
+                        System.out.println("Your text compressed successfully");
                     } else {
                         throw new Exception();
                     }
@@ -43,7 +42,7 @@ public class Main {
                 try {
                     HuffmanCompressor compressor = new HuffmanCompressor(new File(address), new File("compress.cmp"));
                     if (compressor.compressFile()) {
-                        System.out.println("Your text is compressed successfully");
+                        System.out.println("Your text compressed successfully.");
                     } else {
                         throw new Exception();
                     }
@@ -56,9 +55,9 @@ public class Main {
                 // Decompress compress.cmp
                 String destinationAddress = "compress.cmp";
                 HuffmanDecompressor decompressor = new HuffmanDecompressor(new File(destinationAddress), new File("decompress.txt"));
-                System.out.println(decompressor.decompressFile());
                 try {
                     decompressor.decompressFile();
+                    System.out.println("File decompressed successfully.");
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
@@ -106,7 +105,6 @@ public class Main {
                 s = temp;
                 counter++;
             }
-            System.out.println(counter);
             return counter;
         }
     }
